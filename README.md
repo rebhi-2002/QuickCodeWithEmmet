@@ -67,12 +67,15 @@
   - [References:](#references)
 
 ## Learn Emmet Tutorial:
+
 ======================
 
 ## How to Type HTML and CSS Faster with Emmet
+
 ## First: HTML Emmet:
 
 ### [01] `!`
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -89,36 +92,43 @@
 ```
 
 ### [02] `h1.title`
+
 ```html
 <h1 class="title">|</h1>
 ```
 
 ### [03] `.title`
+
 ```html
 <div class="title">|</div>
 ```
 
 ### [04] `p#top`
+
 ```html
 <p id="top">|</p>
 ```
 
 ### [05] `#first`
+
 ```html
 <div id="first">|</div>
 ```
 
 ### [06] `input.class1.class2.class3#search`
+
 ```html
 <input type="text" class="class1 class2 class3" id="search" />
 ```
 
 ### [07] `h1{Learn Emmet}`
+
 ```html
 <h1>Learn Emmet</h1>
 ```
 
 ### [08] `div>ul>li`
+
 ```html
 <div>
   <ul>
@@ -128,6 +138,7 @@
 ```
 
 ### [09] `div>ul>li*9`
+
 ```html
 <div>
   <ul>
@@ -145,6 +156,7 @@
 ```
 
 ### [10] `div>ul>li{Item}*5`
+
 ```html
 <div>
   <ul>
@@ -158,6 +170,7 @@
 ```
 
 ### [11] `div>ul>li{Item $}*5`
+
 ```html
 <div>
   <ul>
@@ -171,6 +184,7 @@
 ```
 
 ### [12] `ul>li#item${Item $}*5`
+
 ```html
 <ul>
   <li id="item1">Item 1</li>
@@ -182,12 +196,14 @@
 ```
 
 ### [13] `div#first+div#second`
+
 ```html
 <div id="first">|</div>
 <div id="second">|</div>
 ```
 
 ### [14] `div>h1+p+p`
+
 ```html
 <div>
   <h1>|</h1>
@@ -197,6 +213,7 @@
 ```
 
 ### [15] `div>h1+ul>li>a`
+
 ```html
 <div>
   <h1>|</h1>
@@ -209,6 +226,7 @@
 ```
 
 ### [16] `div>h1+ul>li>a+p`
+
 ```html
 <div>
   <h1>|</h1>
@@ -222,6 +240,7 @@
 ```
 
 ### [17] `div>h1+ul>li>a^p`
+
 ```html
 <div>
   <h1>|</h1>
@@ -233,6 +252,7 @@
 ```
 
 ### [18] `div>h1+ul>li>a^^p`
+
 ```html
 <div>
   <h1>|</h1>
@@ -244,6 +264,7 @@
 ```
 
 ### [19] `div>h1+(ul>li>a)+p`
+
 ```html
 <div>
   <h1>|</h1>
@@ -255,6 +276,7 @@
 ```
 
 ### [20] `div>(header>ul>li*2>a)+footer>p`
+
 ```html
 <div>
   <header>
@@ -270,6 +292,7 @@
 ```
 
 ### [21] `div>(section.section$>h1.heading$+p*2)*5`
+
 ```html
 <div>
   <section class="section1">
@@ -301,16 +324,19 @@
 ```
 
 ### [22] `p[title]`
+
 ```html
 <p title="|">|</p>
 ```
 
 ### [23] `p[title=hi]`
+
 ```html
 <p title="hi">|</p>
 ```
 
 ### [24] `a[href=https://example.com/$]*5`
+
 ```html
 <a href="https://example.com/1">|</a>
 <a href="https://example.com/2">|</a>
@@ -320,23 +346,27 @@
 ```
 
 ### [25] `img[title]`
+
 ```html
 <img src="|" alt="|" title="|" />
 ```
 
 ### [26] `lorem`
+
 ```html
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta rem
-temporibus consectetur beatae commodi vero impedit tempora. Nihil harum
-porro enim expedita eos, ratione distinctio iusto quasi repellendus. Veniam?
+temporibus consectetur beatae commodi vero impedit tempora. Nihil harum porro
+enim expedita eos, ratione distinctio iusto quasi repellendus. Veniam?
 ```
 
 ### [27] `lorem10`
+
 ```html
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, optio.
 ```
 
 ### [28] `div>(p>lorem10)*3`
+
 ```html
 <div>
   <p>
@@ -355,182 +385,216 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, optio.
 
 <br />
 
---------------------
+---
 
 <br />
 
 ## Second: CSS Emmet:
 
 ### [01] `c:red`
+
 ```css
 color: red;
 ```
 
 ### [02] `c#0`
+
 ```css
 color: #000;
 ```
 
 ### [03] `c#f`
+
 ```css
 color: #fff;
 ```
 
 ### [04] `c#2a`
+
 ```css
 color: #2a2a2a;
 ```
 
 ### [05] `bg#0`
+
 ```css
 background: #000;
 ```
 
 ### [06] `bg:white`
+
 ```css
 background: white;
 ```
 
 ### [07] `m10`
+
 ```css
 margin: 10px;
 ```
 
 ### [08] `m10em`
+
 ```css
 margin: 10em;
 ```
 
 ### [09] `mt10`
+
 ```css
 margin-top: 10px;
 ```
 
 ### [10] `mr10`
+
 ```css
 margin-right: 10px;
 ```
 
 ### [11] `ml10`
+
 ```css
 margin-left: 10px;
 ```
 
 ### [12] `mb10`
+
 ```css
 margin-bottom: 10px;
 ```
 
 ### [13] `p10`
+
 ```css
 padding: 10px;
 ```
 
 ### [14] `t10`
+
 ```css
 top: 10px;
 ```
 
 ### [15] `b10`
+
 ```css
 bottom: 10px;
 ```
 
 ### [16] `l10`
+
 ```css
 left: 10px;
 ```
 
 ### [17] `r10`
+
 ```css
 right: 10px;
 ```
 
 ### [18] `db`
+
 ```css
 display: block;
 ```
 
 ### [19] `di`
+
 ```css
 display: inline;
 ```
 
 ### [20] `dib`
+
 ```css
 display: inline-block;
 ```
 
 ### [21] `dn`
+
 ```css
 display: none;
 ```
 
 ### [22] `dg`
+
 ```css
 display: grid;
 ```
 
 ### [23] `df`
+
 ```css
 display: flex;
 ```
 
 ### [24] `aic`
+
 ```css
 align-items: center;
 ```
 
 ### [25] `jcc`
+
 ```css
 justify-content: center;
 ```
 
 ### [26] `aifs`
+
 ```css
 align-items: flex-start;
 ```
 
 ### [27] `jcsb`
+
 ```css
 justify-content: space-between;
 ```
 
 ### [28] `w100`
+
 ```css
 width: 100px;
 ```
 
 ### [29] `h100`
+
 ```css
 height: 100px;
 ```
 
 ### [30] `tac`
+
 ```css
 text-align: center;
 ```
 
 ### [31] `taj`
+
 ```css
 text-align: justify;
 ```
 
 ## References:
+
 ============
 
 **Efficient Writing of HTML & CSS With Faster Emmet:**
+
 1. [_Cheat Sheet PDF Download_](https://github.com/rebhi-2002/QuickCodeWithEmmet/blob/main/cheatsheet-a5.pdf)
 2. [_Emmet Cheat Sheet_](https://docs.emmet.io/cheat-sheet/)
 3. [_Write HTML & CSS Faster with Emmet: Cheat Codes_](https://www.freecodecamp.org/news/write-html-css-faster-with-emmet-cheat-codes/)
 4. [_Emmet in Visual Studio Code_](https://code.visualstudio.com/docs/editor/emmet)
 
 **How to Write and Format Basic Syntax Code in Markdown:**
-1. [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [Getting Started with Writing and Formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-3. [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-4. [How to Format Code in Markdown](https://www.freecodecamp.org/news/how-to-format-code-in-markdown/)
-5. [Markdown in Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown/)
+
+1. [_Markdown Cheat Sheet_](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+2. [_Getting Started with Writing and Formatting on GitHub_](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+3. [_Markdown Guide: Basic Syntax_](https://www.markdownguide.org/basic-syntax/)
+4. [_How to Format Code in Markdown_](https://www.freecodecamp.org/news/how-to-format-code-in-markdown/)
+5. [_Markdown in Visual Studio Code_](https://code.visualstudio.com/docs/languages/markdown/)
 
 <!-- # QuickCodeWithEmmet
 Enhance Your HTML &amp; CSS Workflow with Efficient Emmet Code Writing -->
